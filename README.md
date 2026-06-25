@@ -1,120 +1,164 @@
 <h1 align="center">Hi, I'm Earl1Grey 👋</h1>
 
 <p align="center">
-  <b>Python Backend Developer</b> focused on clean APIs, practical backend architecture, and portfolio-grade projects.
+  <b>Junior Python Backend Developer</b><br/>
+  FastAPI • REST APIs • SQLAlchemy • Docker • pytest
 </p>
 
 <p align="center">
   <a href="https://github.com/Earl1Grey?tab=repositories">
-    <img src="https://img.shields.io/badge/GitHub-Repositories-181717?style=for-the-badge&logo=github" alt="GitHub repositories"/>
+    <img src="https://img.shields.io/badge/Portfolio-Backend%20Projects-181717?style=for-the-badge&logo=github" alt="Portfolio"/>
   </a>
   <img src="https://img.shields.io/badge/Python-Backend-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Backend"/>
-  <img src="https://img.shields.io/badge/FastAPI-APIs-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
+  <img src="https://img.shields.io/badge/FastAPI-REST%20API-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
 </p>
 
 ---
 
-## 👨‍💻 About me
+## About me
 
-I'm building backend projects with a focus on:
+I'm a junior backend developer focused on building practical API-based projects with Python and FastAPI.
 
-* REST API design
-* clean project structure
-* authentication and CRUD logic
-* database models and migrations
-* testing with `pytest`
-* Docker / Docker Compose setup
-* small but complete MVP-style applications
+My main goal is to write backend code that is understandable, testable, and close to real-world service structure: routers, schemas, services, repositories, database models, migrations, environment configuration, Docker setup, and API documentation.
 
-I like projects that are not just “code for code’s sake”, but have a clear idea, usable endpoints, documentation, and a structure close to real backend services.
+I use GitHub as a portfolio where each project is built as a small but complete backend service.
 
 ---
 
-## 🧰 Tech Stack
+## Tech stack
+
+### Backend
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" />
+  <img src="https://img.shields.io/badge/REST%20API-333333?style=flat-square" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
+</p>
+
+### Databases and ORM
+
+<p>
+  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square" />
   <img src="https://img.shields.io/badge/Alembic-333333?style=flat-square" />
   <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+</p>
+
+### Tools
+
+<p>
   <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker%20Compose-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
 </p>
 
 ---
 
-## 🚀 Featured Projects
+## Featured projects
 
-### 🕵️ [Sherlock Story Finder API](https://github.com/Earl1Grey/sherlock-story-finder-api)
+### [Task Tracker API](https://github.com/Earl1Grey/task-tracker-api)
 
-A FastAPI project that helps identify Sherlock Holmes stories by vague plot descriptions, clues, keywords, or atmosphere.
+Backend service for managing personal tasks with authentication and CRUD logic.
 
-**What it demonstrates:**
+**Stack:** Python, FastAPI, SQLAlchemy, Alembic, SQLite, JWT, pytest
 
-* FastAPI REST API
-* local JSON-based dataset
-* keyword-based matching logic
-* English and Russian query support
-* external Open Library integration
-* caching of external results
-* vibe-based filtering
-* Docker Compose setup
-* automated tests with `pytest`
-
----
-
-### ✅ [Task Tracker API](https://github.com/Earl1Grey/task-tracker-api)
-
-A backend service for managing personal tasks with authentication, filtering, migrations, and tests.
-
-**What it demonstrates:**
+**Implemented:**
 
 * user registration and login
 * JWT authentication
-* CRUD operations
-* filtering and search
-* SQLAlchemy models
-* Alembic migrations
-* layered backend structure
-* API tests with `pytest`
+* current user endpoint
+* task CRUD operations
+* filtering by status and priority
+* search by title or description
+* database migrations
+* API tests
+
+**Why this project matters:**
+This is my most classic backend portfolio project. It demonstrates authentication, database usage, layered project structure, migrations, and test coverage.
 
 ---
 
-### 🎨 [Art Recognition API](https://github.com/Earl1Grey/art-recognition-api)
+### [Sherlock Story Finder API](https://github.com/Earl1Grey/sherlock-story-finder-api)
 
-A FastAPI backend service for analyzing artwork images and matching them with stored artwork fingerprints.
+FastAPI project for matching Sherlock Holmes stories by vague plot descriptions, clues, keywords, or mood.
 
-**What it demonstrates:**
+**Stack:** Python, FastAPI, Pydantic, Requests, pytest, Docker Compose, Open Library API
 
-* image upload handling
+**Implemented:**
+
+* story matching by plot clues
+* English and Russian query support
+* local curated dataset
+* external search through Open Library
+* cached external results
+* source modes: local, external, all
+* vibe-based filtering
+* REST API and console interface
+* Docker Compose setup
+* automated tests
+
+**Why this project matters:**
+This project is more original than a standard CRUD app. It shows API design, matching logic, data processing, external API integration, caching, and Dockerized execution.
+
+---
+
+### [Art Recognition API](https://github.com/Earl1Grey/art-recognition-api)
+
+FastAPI backend service for analyzing artwork images and matching them with stored artwork fingerprints.
+
+**Stack:** Python, FastAPI, SQLAlchemy, SQLite, Pillow, Requests, pytest, Docker Compose
+
+**Implemented:**
+
+* JPG and PNG image upload
 * simple visual fingerprint generation
-* SQLite database usage
-* artwork metadata storage
 * image similarity matching
-* The Metropolitan Museum of Art API integration
+* artwork metadata storage
+* manual artwork creation
+* import from The Metropolitan Museum of Art API
+* duplicate skipping during import
 * Docker Compose setup
 * basic API tests
 
----
-
-## 📌 What I'm currently improving
-
-* deeper FastAPI architecture
-* database design and migrations
-* authentication flows
-* Dockerized development environments
-* automated testing
-* clean README documentation
-* portfolio projects that look understandable to other developers
+**Why this project matters:**
+This project demonstrates file upload handling, image processing basics, external API integration, database models, and a realistic MVP-style backend workflow.
 
 ---
 
-## 📊 GitHub Stats
+## What I practice
+
+```text
+Backend development
+├── REST API design
+├── FastAPI application structure
+├── Pydantic schemas
+├── SQLAlchemy models
+├── Alembic migrations
+├── JWT authentication
+├── Service/repository separation
+├── Dockerized development
+├── pytest-based API testing
+└── README documentation
+```
+
+---
+
+## Current focus
+
+* improving backend architecture
+* writing cleaner service layers
+* learning better database design
+* adding more tests to projects
+* improving Docker and deployment workflows
+* building portfolio projects that are easy to understand and run
+
+---
+
+## GitHub stats
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=Earl1Grey&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
@@ -123,22 +167,7 @@ A FastAPI backend service for analyzing artwork images and matching them with st
 
 ---
 
-## 🧭 Profile focus
-
-```text
-Backend Developer
-├── Python
-├── FastAPI
-├── REST APIs
-├── SQLAlchemy / SQLite / Alembic
-├── Docker / Docker Compose
-├── pytest
-└── Clean project structure
-```
-
----
-
-## 🌍 Languages
+## Languages
 
 * Russian — native
 * English — technical documentation, README files, API descriptions
@@ -146,6 +175,6 @@ Backend Developer
 ---
 
 <p align="center">
-  <b>Thanks for visiting my profile.</b><br/>
-  I build, test, document, and improve backend projects step by step.
+  <b>Open to junior Python backend opportunities.</b><br/>
+  I build APIs, document them, test them, and improve them step by step.
 </p>
